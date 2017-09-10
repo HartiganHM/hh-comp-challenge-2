@@ -162,7 +162,8 @@ article {
 	width: 300px;
 }
 
-.maker-image {
+.card-image {
+	align-items: flex-start;
 	display: flex;
 	background-image: url(images/LDG.jpg);
 	background-position: center;
@@ -172,14 +173,28 @@ article {
 	padding: 10px;
 }
 
-.view-maker {
+.event-number {
+	font-size: 34px;
+}
+
+ul {
+	color: #FFF;
+	font-size: 12px;
+	font-weight: 400;
+	list-style-type: none;
+	margin: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.view-card {
 	background-image: url(images/share.svg);
 	background-size: 50px;
 	height: 50px;
 	width: 50px;
 }
 
-.view-maker:hover {
+.view-card:hover {
 	background-image: url(images/hover/share-hover.svg);
 }
 /*Media Queries*/
