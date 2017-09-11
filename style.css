@@ -291,3 +291,37 @@ p {
 	background-image: url(images/card-images/TT.jpg);
 }
 /*Media Queries*/
+@media screen and (max-width: 750px) {
+	.brand-name {
+		padding: 10px;
+	}
+
+	.header-bottom {
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding: 0 10px 5px;
+	}
+
+	.user-console {
+		align-items: center;
+		display: flex;
+		font-size: 14px;
+		font-weight: 400;
+		height: 25px;
+		justify-content: center;
+		padding: 15px 10px;
+		position: unset;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	h2 {
+		text-align: center;
+	}
+	
+	nav {
+		flex-direction: column;
+	}
+}
