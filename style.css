@@ -1,6 +1,7 @@
 /**********GLOSSARY**********/
 
 /*Colors*/
+/*Dark Gunmetal: #1D1F2E
 /*Davy's Gray: #515859
 /* Eerie Black: #101A1C
 /*Iguana Green: #73C593
@@ -145,35 +146,41 @@ nav {
 
 /**********MAIN SECTION**********/
 
-main {
-	margin: 30px 15px;
+/*Base Styling*/
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 15px 30px;
 }
 
 h2 {
 	font-size: 32px;
 	font-weight: 400;
+	margin: 30px 15px 0;
 }
 
 /*Articles*/
 article {
 	background-color: #FFF;
-	box-shadow: 0 0 5px 0 #515859;
+	box-shadow: 0 0 10px 0 #515859;
 	height: 450px;
+	margin: 10px;
 	width: 300px;
 }
 
+/*Card Image Section*/
 .card-image {
 	align-items: flex-start;
-	display: flex;
-	background-image: url(images/LDG.jpg);
 	background-position: center;
 	background-size: cover;
+	display: flex;
 	height: 150px;
 	justify-content: space-between;
 	padding: 10px;
 }
 
-.event-number {
+.number {
 	font-size: 34px;
 }
 
@@ -196,5 +203,91 @@ ul {
 
 .view-card:hover {
 	background-image: url(images/hover/share-hover.svg);
+}
+
+/*Card Info Section*/
+.card-info {
+	color: #1D1F2E;
+	display: flex;
+	flex-direction: column;
+	font-weight: 400;
+	height: 270px;
+	justify-content: space-around;
+	padding: 5px 20px;
+}
+
+h3,
+.product-type {
+	font-size: 18px;
+}
+
+h3,
+h4,
+p {
+	font-weight: 400;
+	line-height: 130%;
+	margin: 0;
+}
+
+.card-qualifier,
+.offers {
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.location {
+	color: #9B9B9B;
+	font-size: 14px;
+}
+
+.website {
+	color: #666;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.website:hover {
+	color: #00953A;
+	text-decoration: underline;
+}
+
+.website-box {
+	background-color: #E8E8E8;
+	height: 50px;
+	margin: 0 5px;
+	padding: 5px;
+}
+
+/*New Card Images*/
+.card-1 {
+	background-image: url(images/card-images/LDG.jpg);
+}
+
+.card-2 {
+	background-image: url(images/card-images/2LF.jpg);
+}
+
+.card-3 {
+	background-image: url(images/card-images/HIM.jpg);
+}
+
+.card-4 {
+	background-image: url(images/card-images/DD.jpg);
+}
+
+.card-5 {
+	background-image: url(images/card-images/IL.jpg);
+}
+
+.card-6 {
+	background-image: url(images/card-images/RD.jpg);
+}
+
+.card-7 {
+	background-image: url(images/card-images/KC.jpg);
+}
+
+.card-8 {
+	background-image: url(images/card-images/TT.jpg);
 }
 /*Media Queries*/
