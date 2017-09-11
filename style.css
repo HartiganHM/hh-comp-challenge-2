@@ -1,0 +1,293 @@
+/**********GLOSSARY**********/
+
+/*Colors*/
+/*Dark Gunmetal: #1D1F2E
+/*Davy's Gray: #515859
+/* Eerie Black: #101A1C
+/*Iguana Green: #73C593
+/*North Texas Green: #00953A
+
+/*Base Styling*/
+body {
+	background-color: #E8E8E8;
+	color: #333;
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-weight: 700;
+}
+
+/**********HEADER SECTION**********/
+
+/*Branding*/
+.accent-color {
+	color: #00953A;
+}
+
+.brand-logo {
+	height: 65px;
+	width: 65px;
+}
+
+.brand-name {
+	align-items: center;
+	display: flex;
+	font-family: 'Roboto Slab', Georgia, serif;
+	font-size: 24px;
+}
+
+/*Header Layout*/
+header {
+	color: #FFF;
+	cursor: default;
+	background-color: #101A1C;
+}
+
+.header-bottom {
+	align-items: flex-end;
+	display: flex;
+	justify-content: space-between;
+	padding: 75px 20px 15px;
+}
+
+
+/*Navigation*/
+#current-page {
+	color: #FFF;
+}
+
+.icon {
+	background-size: 25px;
+	height: 25px;
+	margin: 10px;
+	width: 25px;
+}
+
+nav {
+	display: flex;
+	font-weight: 400;
+}
+
+.nav-button {
+	color: #ADADAD;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	margin: 0 30px 0 0;
+	text-transform: uppercase;
+}
+
+.nav-button:hover {
+	color: #FFF;
+}
+
+.nav-button:hover .makers-icon {
+	background-image: url(images/hover/004-sew.svg);
+}
+
+.nav-button:hover .markets-icon {
+	background-image: url(images/hover/005-cinema.svg);
+}
+
+.nav-button:hover .products-icon {
+	background-image: url(images/hover/003-clothes.svg);
+}
+
+.makers-icon {
+	background-image: url(images/002-sew.svg);
+}
+
+.markets-icon {
+	background-image: url(images/inactive/002-cinema.svg);
+}
+
+.products-icon {
+	background-image: url(images/inactive/003-clothes.svg);
+}
+
+/*User Console*/
+.menu-icon {
+	background-image: url(images/inactive/005-arrows.svg);
+	background-size: 20px;
+	height: 20px;
+	width: 20px;
+}
+
+.menu-icon:hover {
+	background-image: url(images/hover/002-arrows.svg);
+}
+
+.user-console {
+	align-items: center;
+	display: flex;
+	font-size: 14px;
+	font-weight: 400;
+	height: 25px;
+	justify-content: space-between;
+	padding: 15px 30px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.user-icon {
+	background-image: url(images/001-social.svg);
+	background-size: 20px;
+	height: 20px;
+	width: 20px;
+}
+
+.user-icon:hover {
+	background-image: url(images/hover/001-social.svg);
+}
+
+.username {
+	color: #00953A;
+	margin: 0 10px;
+}
+
+/**********MAIN SECTION**********/
+
+/*Base Styling*/
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 15px 30px;
+}
+
+h2 {
+	font-size: 32px;
+	font-weight: 400;
+	margin: 30px 15px 0;
+}
+
+/*Articles*/
+article {
+	background-color: #FFF;
+	box-shadow: 0 0 10px 0 #515859;
+	height: 450px;
+	margin: 10px;
+	width: 300px;
+}
+
+/*Card Image Section*/
+.card-image {
+	align-items: flex-start;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	height: 150px;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+.number {
+	font-size: 34px;
+}
+
+ul {
+	color: #FFF;
+	font-size: 12px;
+	font-weight: 400;
+	list-style-type: none;
+	margin: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.view-card {
+	background-image: url(images/share.svg);
+	background-size: 50px;
+	height: 50px;
+	width: 50px;
+}
+
+.view-card:hover {
+	background-image: url(images/hover/share-hover.svg);
+}
+
+/*Card Info Section*/
+.card-info {
+	color: #1D1F2E;
+	display: flex;
+	flex-direction: column;
+	font-weight: 400;
+	height: 270px;
+	justify-content: space-around;
+	padding: 5px 20px;
+}
+
+h3,
+.product-type {
+	font-size: 18px;
+}
+
+h3,
+h4,
+p {
+	font-weight: 400;
+	line-height: 130%;
+	margin: 0;
+}
+
+.card-qualifier,
+.offers {
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.location {
+	color: #9B9B9B;
+	font-size: 14px;
+}
+
+.website {
+	color: #666;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.website:hover {
+	color: #00953A;
+	text-decoration: underline;
+}
+
+.website-box {
+	background-color: #E8E8E8;
+	height: 50px;
+	margin: 0 5px;
+	padding: 5px;
+}
+
+/*New Card Images*/
+.card-1 {
+	background-image: url(images/card-images/LDG.jpg);
+}
+
+.card-2 {
+	background-image: url(images/card-images/2LF.jpg);
+}
+
+.card-3 {
+	background-image: url(images/card-images/HIM.jpg);
+}
+
+.card-4 {
+	background-image: url(images/card-images/DD.jpg);
+}
+
+.card-5 {
+	background-image: url(images/card-images/IL.jpg);
+}
+
+.card-6 {
+	background-image: url(images/card-images/RD.jpg);
+}
+
+.card-7 {
+	background-image: url(images/card-images/KC.jpg);
+}
+
+.card-8 {
+	background-image: url(images/card-images/TT.jpg);
+}
+/*Media Queries*/
