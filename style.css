@@ -3,7 +3,7 @@
 /*Colors*/
 /*Dark Gunmetal: #1D1F2E
 /*Davy's Gray: #515859
-/* Eerie Black: #101A1C
+/*Eerie Black: #101A1C
 /*Iguana Green: #73C593
 /*North Texas Green: #00953A
 
@@ -198,11 +198,15 @@ ul {
 	background-image: url(images/share.svg);
 	background-size: 50px;
 	height: 50px;
+	opacity: 0.5;
 	width: 50px;
 }
 
 .view-card:hover {
-	background-image: url(images/hover/share-hover.svg);
+	background-image: url(images/inactive/share-inactive.svg);
+	opacity: 1.0;
+	transition: 0.5s;
+	transition-property: opacity;
 }
 
 /*Card Info Section*/
@@ -291,6 +295,18 @@ p {
 	background-image: url(images/card-images/TT.jpg);
 }
 /*Media Queries*/
+@media screen and (min-width: 1500px) {
+	.container {
+		margin: 15px 100px;
+	}
+}
+
+@media screen and (min-width: 1800px) {
+	.container {
+		margin: 15px 200px;
+	}
+}
+
 @media screen and (max-width: 750px) {
 	.brand-name {
 		padding: 10px;
